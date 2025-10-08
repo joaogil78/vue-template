@@ -6,6 +6,7 @@ import LatestProducts from '@/components/LatestProducts.vue';
 import BlogPosts from '@/components/BlogPosts.vue';
 import { onMounted } from 'vue';
 import {
+  setBg,
   categoriesSlider,
   latestProductsSlider,
   productsDiscontSlider,
@@ -15,6 +16,7 @@ import {
 } from '@/assets/js/main.js';
 
 onMounted(() => {
+  setBg(),
   categoriesSlider(),
   latestProductsSlider(),
   productsDiscontSlider(),

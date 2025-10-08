@@ -1,3 +1,10 @@
+/* import "@/assets/js/jquery-3.3.1.min.js"
+import '@/assets/js/bootstrap.min.js'
+import '@/assets/js/popper.min.js';
+import '@/assets/js/jquery.nice-select.min.js'
+import '@/assets/js/jquery-ui.min.js'
+import '@/assets/js/jquery.slicknav.js' */
+
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
